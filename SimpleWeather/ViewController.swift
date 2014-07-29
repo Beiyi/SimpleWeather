@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
     
     //调用TextView控件
-    @IBOutlet var WeatherText: UITextView
+    @IBOutlet var WeatherText: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
